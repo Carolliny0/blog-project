@@ -1,3 +1,5 @@
+import Icon from "../Icon";
+
 function Conteudo(){
     const conteudo = [
         {
@@ -28,7 +30,7 @@ function Conteudo(){
             <div className="div-noticias">
             <div className="div-data">
               <p>{item.data}</p>
-              <i id="icon-heart" class="bi bi-suit-heart"></i>
+              <Icon/>
             </div>
             <h1>{item.titulo}</h1>
             <p className="texto-noticias">

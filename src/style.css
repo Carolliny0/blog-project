@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -88,13 +89,6 @@
     color: #717171;
     line-height: 20px;
   }
-  #icon.heart {
-    fill: #574ae801;
-    stroke: #574ae8;
-    stroke-width: 7;
-    transition: fill 0.3s;
-    cursor: pointer;
-  }
   .div-data {
     display: flex;
     position: relative;
@@ -106,7 +100,4 @@
     color: #717171;
     font-size: 12px;
   }
-  #icon.filled,
-  #icon:hover {
-    fill: #574ae8;
-  }
+
