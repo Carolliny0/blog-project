@@ -22,13 +22,22 @@ function Conteudo(){
         },
     ];
 
-    const listitem = conteudo.map((item, i) => {
-        <section>
-            <p>{item.data}</p>
+    return (
+        <>
+            {conteudo.map((item, i) => 
+            <div className="div-noticias">
+            <div className="div-data">
+              <p>{item.data}</p>
+              <i id="icon-heart" class="bi bi-suit-heart"></i>
+            </div>
             <h1>{item.titulo}</h1>
-            <p>{item.texto}</p>
-        </section>
-    });
+            <p className="texto-noticias">
+              {item.texto}
+            </p>
+          </div>
+            )}
+        </>
+    )
 }
 
 export default Conteudo;

@@ -4,7 +4,7 @@ import Conteudo from "./Conteudo";
 export default function Section() {
   return (
     <section>
-    <Conteudo/>
+      <Conteudo/>
     </section>
   );
 }
