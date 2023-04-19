@@ -1,5 +1,5 @@
  
- const ArrayConteudo = [
+ const arrayConteudo = [
         {
             data: '02 de jul, 2021',
             titulo: 'Agora é oficial: o Windows 11 está vindo',
@@ -22,4 +22,4 @@
         },
     ];
 
-export default ArrayConteudo;
+export default arrayConteudo;
