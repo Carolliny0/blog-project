@@ -14,8 +14,6 @@
     line-height: 26px;
     color: #ffff;
     background-image: linear-gradient(to right, #574ae8, #3ea1db);
-    width: 100%;
-    min-width: 670px;
   }
   .div-pesquisar {
     display: flex;
@@ -24,6 +22,46 @@
     align-items: center;
     justify-content: left;
     width: 50%;
+  }
+  @media (max-width: 1050px) {
+    section {
+      width: 50%;
+    }
+  }
+  @media (max-width: 1000px) {
+    section {
+      width: 60%;
+    }
+  }
+  @media (max-width: 950px) {
+    section {
+      width: 65%;
+    }
+  }
+  @media (max-width: 900px) {
+    .div-pesquisar {
+      width: 70%;
+    }
+  }
+  @media (max-width: 850px) {
+    .div-pesquisar{
+      width: 75%;
+    }
+  }
+  @media (max-width: 700px) {
+    .div-pesquisar{
+      width: 80%;
+    }
+  }
+  @media (max-width: 600px) {
+    .div-pesquisar{
+      width: 85%;
+    }
+  }
+  @media (max-width: 550px) {
+    .div-pesquisar{
+      width: 90%;
+    }
   }
   input {
     opacity: 0.5;
@@ -55,6 +93,46 @@
     justify-content: space-between;
     width: 50%;
   }
+  @media (max-width: 1050px) {
+    section {
+      width: 50%;
+    }
+  }
+  @media (max-width: 1000px) {
+    section {
+      width: 60%;
+    }
+  }
+  @media (max-width: 950px) {
+    section {
+      width: 65%;
+    }
+  }
+  @media (max-width: 900px) {
+    nav {
+      width: 70%;
+    }
+  }
+  @media (max-width: 850px) {
+    nav {
+      width: 75%;
+    }
+  }
+  @media (max-width: 700px) {
+    nav {
+      width: 80%;
+    }
+  }
+  @media (max-width: 600px) {
+    nav {
+      width: 85%;
+    }
+  }
+  @media (max-width: 550px) {
+    nav {
+      width: 90%;
+    }
+  }
   body {
     background: #f3f5f7;
     display: flex;
@@ -68,6 +146,46 @@
     width: 50%;
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  @media (max-width: 1050px) {
+    section {
+      width: 50%;
+    }
+  }
+  @media (max-width: 1000px) {
+    section {
+      width: 60%;
+    }
+  }
+  @media (max-width: 950px) {
+    section {
+      width: 65%;
+    }
+  }
+  @media (max-width: 900px) {
+    section {
+      width: 70%;
+    }
+  }
+  @media (max-width: 850px) {
+    section {
+      width: 75%;
+    }
+  }
+  @media (max-width: 700px) {
+    section {
+      width: 80%;
+    }
+  }
+  @media (max-width: 600px) {
+    section {
+      width: 85%;
+    }
+  }
+  @media (max-width: 550px) {
+    section {
+      width: 90%;
+    }
   }
   .div-noticias {
     background: #ffff;
