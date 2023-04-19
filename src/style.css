@@ -14,6 +14,8 @@
     line-height: 26px;
     color: #ffff;
     background-image: linear-gradient(to right, #574ae8, #3ea1db);
+    width: 100%;
+    min-width: 670px;
   }
   .div-pesquisar {
     display: flex;
