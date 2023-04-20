@@ -1,14 +1,12 @@
 import Icon from "./Icon";
 import arrayConteudo from "./arrayConteudo.js";
 
-function Conteudo(){
-
-    const filtrado = arrayConteudo.filter(element => element.titulo.includes(''));
+function Conteudo({ filtrado }){
 
     return (
-        <>
+        <section>
             {filtrado.map((item, i) => 
-            <div className="div-noticias">
+            <div className="div-noticias" key={i}>
             <div className="div-data">
               <p>{item.data}</p>
               <Icon/>
@@ -19,7 +17,7 @@ function Conteudo(){
             </p>
           </div>
             )}
-        </>
+        </section>
     )
 }
 
