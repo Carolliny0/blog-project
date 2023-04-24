@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Icon() {
-    const [liked, setLiked] = useState(false);
+    const [liked, setLiked] = useState(true);
 
     function handleClick() {
       setLiked(!liked);

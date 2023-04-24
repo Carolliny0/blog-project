@@ -1,5 +1,4 @@
 import Icon from "./Icon";
-import arrayConteudo from "./arrayConteudo.js";
 
 function Conteudo({ filtrado }){
 
